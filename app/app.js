@@ -32,7 +32,7 @@ var Book = Backbone.Model.extend({
  */
 var BookView = Backbone.View.extend({
 
-  el: $('.container'),
+  el: $('.results'),
   tagName: 'li',
   className: 'book',
 
@@ -61,7 +61,7 @@ var Books = Backbone.Collection.extend({
  */
 var BooksView = Backbone.View.extend({
 
-  el: $('.container'),
+  el: $('.results'),
 
   initialize: function () {},
 
